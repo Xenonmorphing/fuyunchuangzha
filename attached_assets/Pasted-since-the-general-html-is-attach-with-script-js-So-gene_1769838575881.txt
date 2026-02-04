@@ -1,0 +1,40 @@
+since the general.html is attach with script.js. So general.html page should be has these elements, 
+1. hp with 3
+2. timer of 10s
+3. item elimination card(https://imgur.com/a/gzRWvMj.png), key card to go d door(https://imgur.com/b20hgGa.png) and addhp card(https://imgur.com/pYKUYaH.png)
+4. 3 random doors a(https://i.imgur.com/mL3vqAO.png),b(https://imgur.com/wCgkrm3.png),c(https://imgur.com/GcBnXpW.png),d(https://imgur.com/cYgi26i.png), 4 door choose 3 only
+
+door rules:
+in each round, the player is presented with 3 random gates (A / B / C / D, duplicates allowed).
+The player must choose one gate before the timer runs out.
+If the player fails to choose in time, it is considered a wrong choice and –1 HP is applied.
+
+Gate Outcomes
+Each gate has two possible outcomes:
+Encounter the Nian Beast
+Player loses 1 HP.
+
+In every round:
+At least 1 gate is a “bad gate”
+At most 2 gates are “bad gates”
+
+Safe Passage
+The player passes safely and may receive one of the following:
+Elimination Card: Reveals 1 “bad gate”
++1 HP (only works if HP is not already full)
+Key: Used to unlock Gate D
+Or no item (safe passage only)
+
+Special Rules for Gate D
+Gate D is the safest, but still has a very small chance of containing the Nian Beast.
+The player must have a Key to choose Gate D.
+Without a Key, Gate D cannot be selected.
+
+sequence:
+general.html -> x/y/z -> no2.html -> general.html -> x/y/z -> no3.html -> general.html -> x/y/z -> no4.html -> general.html -> x/y/z -> no5.html -> general.html -> x/y/z -> no6.html -> general.html -> x/y/z -> no7.html -> general.html -> x/y/z -> no8.html -> general.html -> x/y/z -> no9.html -> general.html -> x/y/z -> no10.html -> general.html -> x/y/z -> no11.html -> general.html -> x/y/z -> no12.html -> general.html -> x/y/z -> no13.html -> general.html -> x/y/z -> no14.html -> general.html -> x/y/z -> no15.html -> general.html -> x/y/z -> no16.html -> general.html -> x/y/z -> no17.html -> general.html -> x/y/z -> no18.html -> general.html -> x/y/z -> no19.html -> general.html -> x/y/z -> no20.html -> general.html -> x/y/z -> no21.html -> general.html -> x/y/z -> no22.html -> general.html -> x/y/z -> no23.html -> general.html -> x/y/z -> no24.html -> general.html -> x/y/z -> no25.html -> victory.html
+
+x means nothing happens, just go to number page
+y means can get either elimination card, key or addhp, so go to page respectively and back to number page
+z means go to minushp.html -> nian1.html or nian2.html
+
+if player lose all hp then go to thanks.html, without changing pages image order and word order, add these!

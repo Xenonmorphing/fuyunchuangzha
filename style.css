@@ -1,0 +1,79 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html,body { height: 100%; overflow: hidden; }
+body { margin:0; overflow:hidden; font-family:"KaiTi", serif; }
+
+/*背景设计*/
+#schoollogo { position: absolute; right: 0; bottom: 1; z-index: 1; }
+#bg { position:absolute; width:100%; height:100%; z-index: -1; }
+#lantern { position:absolute; top:0%; left:84.5%; transform:translateX(-50%); width:200px; height:auto; transform: scaleX(-1); }
+#fanup { position:absolute; top:66%; left:94.5%; transform:translateX(-50%); width:320px; height:auto; }
+#fandown { position:absolute; top:-13%; left:4.5%; transform:translateX(-50%); width:360px; height:auto; }
+#flower { position:absolute; top:72.3%; left:8.3%; transform:translateX(-50%); width:400px; height:auto; }
+
+/*标题Title*/
+.title { position:absolute; transform:translateX(-50%); font-size:100px; font-family: Ma Shan Zheng; text-shadow: 7px 7px 8px rgb(92, 92, 92,0.4); background: linear-gradient(180deg, #963e15, #ff5e00); font-weight: bolder; -webkit-text-stroke: 0.5px black; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+#rulestitle { top:7%; left:50% }
+#title1 { top:12%; left:30%; text-shadow: none }
+#title2 { top:32%; left:30%; text-shadow: none }
+#title3 { top:52%; left:30%; text-shadow: none }
+
+/*文字Text*/
+.text { position:absolute; transform:translateX(-50%); color:#5a2a00; width:62%; }
+#page2text { font-size:40px; top:30%; left:50% }
+#page2list { font-size:40px; top:45%; left:51% }
+#page4text { font-size:35px; top:25%; left:52% }
+#page4list { font-size:30px; top:52%; left:55% }
+#doorchosen {position: absolute; top: 35%; left: 50%; transform:translateX(-50%);  font-size: 70px; font-family: Ma Shan Zheng; text-shadow: 7px 7px 9px rgb(84, 84, 84,0.4); -webkit-text-stroke: 0% black; color: #433d3d}
+#doorriska {position: relative; top: 54%; left: 19%; font-size: 60px; font-family: 'ZCOOL XiaoWei', serif; text-align: center; width: 750px; border-radius: 25px; border: 5px hidden #DCEBD9; padding: 15px 17px; background: linear-gradient(to bottom, #2C8219, #50C635); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+#doorriska::before { content: ""; position: absolute; inset: 0; background-color: #DCEBD9; border-radius: 25px; z-index: -1; }
+#doorriskb {position: relative; top: 54%; left: 17%; font-size: 65px; font-family: 'ZCOOL XiaoWei', serif; text-align: center; width: 850px; border-radius: 25px; border: 5px hidden #F2ECDA; padding: 15px 17px; background: linear-gradient(to bottom, #AC8100, #FBC625); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+#doorriskb::before { content: ""; position: absolute; inset: 0; background-color: #F2ECDA; border-radius: 25px; z-index: -1; }
+#doorriskc {position: relative; top: 54%; left: 19%; font-size: 75px; font-family: 'ZCOOL XiaoWei', serif; text-align: center; width: 800px; border-radius: 25px; border: 5px hidden #EEDBDB; padding: 15px 17px; background: linear-gradient(to bottom, #871C1C, #E52D2D); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+#doorriskc::before { content: ""; position: absolute; inset: 0; background-color: #EEDBDB; border-radius: 25px; z-index: -1; }
+#doorriskd {position: relative; top: 54%; left: 19%; font-size: 59px; font-family: 'ZCOOL XiaoWei', serif; text-align: center; width: 850px; border-radius: 25px; border: 5px hidden #EEDBDB; padding: 15px 17px; line-height: 1.3; background: linear-gradient(to bottom, #51065D, #E579EE); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+#doorriskd::before { content: ""; position: absolute; inset: 0; background-color: #EEDBDB; border-radius: 25px; z-index: -1; }
+#live {position: relative; top: 31%; left: 20%; font-size: 60px; font-family: 'Ma Shan Zheng', serif; text-align: center; width: 750px; color: #226214; }
+#success {position: relative; top: 15%; left: 20%; font-size: 60px; font-family: 'Ma Shan Zheng', serif; text-align: center; width: 850px; color: #226214;}
+
+/*按钮Button*/
+.nextbutton { padding: 0.5cm; font-family: 'Ma Shan Zheng', sans-serif; font-size: 50px; text-align: center; border: 3px solid gray; background:#e63946; color: white; text-transform: uppercase; letter-spacing: 1px; position: absolute; transform: 0.25s ease-out; cursor: pointer; border-radius: 40px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: all 0.3s ease; -webkit-text-stroke: 1px white; text-decoration: none; outline: orange;
+}
+.nextbutton:hover { background-color: darkred; color: black; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); transform: scale(1.08) }
+#page2button { bottom: 70px; left: 74% }
+#page3button { bottom: 130px; left: 80% }
+#page4button { bottom: 130px; left: 80% }
+#page5button { bottom: 100px; left: 44% }
+
+/*道具卡片Card*/
+#doorA {position: absolute; top: 20%; left: 30%; transform:translateX(-50%); width: 250px; height: auto; }
+#doorB {position: absolute; top: 20%; left: 70%; transform:translateX(-50%); width: 250px; height: auto; }
+#doorC {position: absolute; top: 55%; left: 30%; transform:translateX(-50%); width: 250px; height: auto; }
+#doorD {position: absolute; top: 55%; left: 70%; transform:translateX(-50%); width: 250px; height: auto; }
+#doorAdescription {position: absolute; top: 52%; left: 31%; transform:translateX(-50%); font-size: 32px; font-family: ZCOOL QingKe HuangYou; color: #5a2a00; }
+#doorBdescription {position: absolute; top: 52%; left: 70.5%; transform:translateX(-50%); font-size: 32px; font-family: ZCOOL QingKe HuangYou; color: #5a2a00; }
+#doorCdescription {position: absolute; top: 87%; left: 31%; transform:translateX(-50%); font-size: 32px; font-family: ZCOOL QingKe HuangYou; color: #5a2a00; }
+#doorDdescription {position: absolute; top: 87%; left: 70.5%; transform:translateX(-50%); font-size: 32px; font-family: ZCOOL QingKe HuangYou; color: #5a2a00; }
+#card1 {position: absolute; top: 22%; left: 69%; transform:translateX(-50%); width: 175px; height: auto; }
+#card2 {position: absolute; top: 22%; left: 82%; transform:translateX(-50%); width: 180px; height: auto; }
+#card3 {position: absolute; top: 58%; left: 69%; transform:translateX(-50%); width: 200px; height: auto; }
+
+/*输入框Input*/
+.placeholder  {position:absolute; color: black; font-size: 55px; font-family: ZCOOL XiaoWei; border-radius: 50px; padding: 20px; border: 5px solid #696969; }
+#name { width: 600px; height: 100px; top:13%; left:40%; background-image: linear-gradient(to right ,#f2709c, #ff9472); }
+#studentid { width: 600px; height: 100px; top:33%; left:40%; background-image: linear-gradient(to right , #ee0979, #ff6a00); }
+#class { width: 600px; height: 100px; top:53%; left:40%;  background-image: linear-gradient(to right,#FF416C, #FF4B2B); }
+
+/*数字Number*/
+#number {
+  animation: scaleUp 1s forwards;
+}
+
+@keyframes scaleUp {
+  0% {
+      transform: scale(1);
+  }
+  100% {
+      transform: scale(1.5); 
+  }
+}
