@@ -74,12 +74,12 @@ if (page === 'index.html') {
         saveState();
         const numberElem = document.getElementById('number');
         if (numberElem && !page.includes('no1.html') && !page.includes('no2.html')) {
-            setTimeout(() => { window.location.href = 'general.html'; }, 2000);
+            setTimeout(() => { window.location.href = 'general.html'; }, 3500);
         } else {
             const numberImg = document.getElementById('number');
             if (numberImg) {
                  numberImg.addEventListener('animationend', function() {
-                    setTimeout(() => { window.location.href = 'general.html'; }, 2000);
+                    setTimeout(() => { window.location.href = 'general.html'; }, 3500);
                 });
             }
         }
